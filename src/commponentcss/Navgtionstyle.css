@@ -1,0 +1,42 @@
+.nav-logo
+{
+  font-size: 25px;
+  color: black !important;
+  text-decoration: none !important;
+  font-family: 'Charm', cursive;
+ font-family: 'Crimson Text', serif;
+ font-family: 'Dancing Script', cursive;
+ font-family: 'Nanum Myeongjo', serif;
+ font-family: 'Newsreader', serif;
+ font-family: 'Source Serif Pro', serif; 
+  font-weight: bold;
+}
+.nav-perant
+{
+   font-family: 'Charm', cursive;
+  font-family: 'Crimson Text', serif;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Nanum Myeongjo', serif;
+  font-family: 'Newsreader', serif;
+  font-family: 'Source Serif Pro', serif;
+}
+.nav-perant
+{
+  text-decoration: none !important;
+}
+.N-link
+{
+  text-decoration: none !important;
+  color: black !important;
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+@media screen and (max-width:991px) 
+{
+  .N-link
+  {
+       margin-top: 10px;
+       text-align: center !important; 
+  }
+}

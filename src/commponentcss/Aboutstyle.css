@@ -1,0 +1,69 @@
+.about-section .container
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding-top: 100px;
+}
+.about-item
+{
+        
+     font-family: 'Charm', cursive;
+     font-family: 'Crimson Text', serif;
+     font-family: 'Dancing Script', cursive;
+     font-family: 'Nanum Myeongjo', serif;
+     font-family: 'Newsreader', serif;
+     font-family: 'Source Serif Pro', serif;
+     font-weight: bold;
+}
+@media screen and (max-width:991px) and (min-width:400px)
+{
+     .divition
+     {
+        margin-top: 70px !important; 
+     }     
+     .divition-tow
+     {
+          margin-top: 30px;
+     }
+}
+@media screen and (max-width:380px)
+{
+     .divition
+     {
+         margin-top: 100px !important; 
+     }     
+     .divition-tow
+     {
+          margin-top: 30px;
+     }
+}
+
+.about-section
+{
+    background-image: url('../image/dots.png');
+    background-position: center center;
+    background-size: 100% 100;
+    height: 115vh;
+    width: 100%;
+}
+.about-item p
+{
+    line-height: 2rem;    
+}
+.divition-tow button
+{
+    font-weight: bold;
+
+}
+.down-but:hover
+{ 
+    background-color: rgb(255, 255, 255) !important;
+    color: black !important;
+}
+.contact-but:hover
+{
+     background-color: rgb(31, 30, 30) !important; 
+     color: white !important;    
+}

@@ -1,0 +1,116 @@
+.serv-sec
+{
+   height: 100%;
+   background-image: url('../image/dark_dot.jpg');
+   background-position: center center;
+   background-size: 100% 100;   
+   padding-bottom: 100px;    
+}
+.serv-sec .container
+{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column !important;   
+     font-family: 'Charm', cursive;
+     font-family: 'Crimson Text', serif;
+     font-family: 'Dancing Script', cursive;
+     font-family: 'Nanum Myeongjo', serif;
+     font-family: 'Newsreader', serif;
+     font-family: 'Source Serif Pro', serif;  
+     padding-top: 80px;
+     transition: all 3s !important;
+
+}
+
+.serv-item .fa-chevron-down
+{
+   font-size: 25px;
+}
+.serv-item .fa-angle-down
+{
+   font-size: 30px;
+   text-align: center;
+}
+.serv-item .fa-chevron-up
+{
+   font-size: 25px;
+}
+.serv-item
+{
+     
+     background-color: rgb(255, 255, 255);   
+     padding: 30px;  
+     font-weight: bold;
+     border-radius: 24px;
+     color: black;
+     position: relative;
+}
+
+.serv-item h3
+{
+    margin-top: 20px;      
+}
+.serv-item p
+{
+     padding-top: 10px;  
+}
+.serv-icon 
+{
+     font-size: 35px;    
+     padding: 6px 8px;
+     border-radius: 50%;
+}
+.serv-icon-clean
+{
+          font-size: 35px;    
+          padding:7px 15px;
+          border-radius: 50%;
+}
+.serv-icon-resp
+{
+          font-size: 35px;    
+          padding:6px 18px;
+          border-radius: 50%;          
+}
+.serv-icon-ment
+{
+   font-size: 35px;    
+   padding:6px 15px;
+   border-radius: 50%;   
+}
+.title-serv
+{
+    position: relative; 
+    margin-bottom: 50px; 
+    margin-top: 50px;   
+}
+.title-serv h2
+{
+  font-size: 80px;
+  font-weight: 900; 
+  color: #343a40;       
+}
+.title-tow
+{
+   position: absolute;
+   left: 25%;
+   top: 25%;       
+}
+.title-tow h3
+{
+   font-size: 40px;
+   font-weight: 900;  
+   color: #ffffff;     
+}
+
+.serv-item:hover .post 
+{
+   color: #dc3545;    
+}
+
+.bt-serv
+{
+   margin-top: 50px;
+   font-weight: bold !important;  
+}

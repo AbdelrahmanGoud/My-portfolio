@@ -1,0 +1,125 @@
+.skill-sec {
+  background-image: url('../image/dark_dot.jpg');
+  background-position: center center;
+  background-size: 100 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.cont-skill {
+  font-family: 'Charm', cursive;
+  font-family: 'Crimson Text', serif;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Nanum Myeongjo', serif;
+  font-family: 'Newsreader', serif;
+  font-family: 'Source Serif Pro', serif;
+  padding-top: 80px;
+}
+.cont-skill
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column !important;
+}
+.prog-skill {
+  margin-left: 18%;
+}
+@media screen  and (max-width:991px) and (min-width:768px) 
+{
+  .prog-skill {
+    margin-left: 22%;
+  }
+  
+}
+@media screen  and (max-width:767px) and (min-width:460px)
+{
+  .prog-skill {
+    margin-left: 32%;
+  }
+  
+}
+@media screen  and (max-width:459px) and (min-width:400px)
+{
+  .prog-skill {
+    margin-left: 25.5%;
+  }
+  
+}
+@media screen  and (max-width:299px)
+{
+  .prog-skill {
+    margin-left: 18%;
+  }
+  
+}
+.skill-item h2 {
+  color: #ffffff;
+}
+
+.titel-skill-one {
+  position: relative;
+  margin-bottom: 50px;
+  margin-top: 50px;
+
+}
+
+.titel-skill-one h2 {
+  font-size: 80px;
+  font-weight: 900;
+  color: #343a40;
+}
+
+.title-skill-two {
+  position: absolute;
+  left: 25%;
+  top: 25%;
+}
+
+.title-skill-two h3 {
+  font-size: 40px;
+  font-weight: 900;
+  color: white;
+}
+
+@keyframes growProgressBar {
+
+  0%,
+  33% {
+    --pgPercentage: 0;
+  }
+
+  100% {
+    --pgPercentage: var(--value);
+  }
+}
+
+@property --pgPercentage {
+  syntax: '<number>';
+  inherits: false;
+  initial-value: 0;
+}
+
+.prog-skill[role="progressbar"] {
+  --size: 12rem;
+  --fg: #dc3545;
+  --bg: rgb(0, 0, 0);
+  --pgPercentage: var(--value);
+  animation: growProgressBar 3s 1 forwards;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background:
+    radial-gradient(closest-side, rgb(0, 0, 0) 80%, transparent 0 99.9%, rgb(0, 0, 0) 0),
+    conic-gradient(var(--fg) calc(var(--pgPercentage) * 1%), var(--bg) 0);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: calc(var(--size) / 5);
+  color: var(--fg);
+}
+
+.prog-skill[role="progressbar"]::before {
+  counter-reset: percentage var(--value);
+  content: counter(percentage) '%';
+}
