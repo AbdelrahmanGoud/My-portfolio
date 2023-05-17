@@ -24,6 +24,11 @@
 {
   text-decoration: none !important;
 }
+.nav-icons .nav-i
+{
+  color: rgb(0, 0, 0) !important;
+  font-size: 25px !important; 
+}
 .N-link
 {
   text-decoration: none !important;

@@ -10,6 +10,7 @@ import anamit from '../image/anmit.jpg';
 import navBar from '../image/nav.jpg';
 import $ from 'jquery';
 import { useEffect } from 'react';
+import Footer from './Footer';
 
 function Projects()
 {   
@@ -165,6 +166,7 @@ function Projects()
          </div> 
       </div>  
       </section>
+      <Footer/>
       </>    
    )       
 }

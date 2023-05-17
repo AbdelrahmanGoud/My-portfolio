@@ -14,6 +14,7 @@ import Projects from './commponent/Projects';
 import './commponentcss/Projectstyle.css';
 import Contact from './commponent/Contact';
 import './commponentcss/Conactstyle.css';
+import './commponentcss/Footerstyle.css';
 function App() {
   return (
     <div className="App">

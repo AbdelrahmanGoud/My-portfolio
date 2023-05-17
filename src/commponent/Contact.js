@@ -1,5 +1,6 @@
 import emailjs from '@emailjs/browser';
 import { useState } from 'react';
+import Footer from './Footer';
 
 function Contact()
 {
@@ -75,6 +76,7 @@ function Contact()
       </form> 
       </div>    
       </section>
+      <Footer/>
       </>    
    )       
 }

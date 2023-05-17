@@ -1,0 +1,35 @@
+.foot
+{
+  background-color: black;
+  text-align: center;
+  overflow: hidden;
+  color: white;
+  padding: 50px 0;
+  font-family: 'Charm', cursive;
+  font-family: 'Crimson Text', serif;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Nanum Myeongjo', serif;
+  font-family: 'Newsreader', serif;
+  font-family: 'Source Serif Pro', serif;  
+}
+.icon-foot .foot-i
+{
+  color: rgb(255, 255, 255) !important;
+  font-size: 30px !important;        
+}
+.fa-github:hover
+{
+   color: #dc3545 !important;       
+}
+.fa-envelope:hover
+{
+   color: #dc3545 !important;       
+}
+.fa-whatsapp:hover
+{
+   color: #dc3545 !important;       
+}
+.fa-phone:hover
+{
+   color: #dc3545 !important;       
+}

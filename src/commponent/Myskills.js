@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+import Footer from "./Footer";
 
 function Myskills(props)
 {
@@ -88,10 +90,11 @@ function Myskills(props)
       </div>  
       
       </div>
-      <button className="btn btn-danger bt-serv mb-5">view projects</button>
+      <Link to='/Projects'><button className="btn btn-danger mb-3">view projects</button></Link>
 
       </div>
     </section>
+    <Footer/>
     </>
   )
 }

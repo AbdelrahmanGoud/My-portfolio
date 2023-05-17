@@ -1,5 +1,7 @@
 import $ from 'jquery'
 import { useEffect } from 'react';
+import Footer from './Footer';
+import { Link } from 'react-router-dom';
 function Servicesec()
 {  
   useEffect(()=>{
@@ -47,10 +49,11 @@ function Servicesec()
            </div>
            </div>       
           </div>
-          <button className="btn btn-danger bt-serv">view projects</button>
+          <Link to='/Projects'><button className="btn btn-danger mb-3">view projects</button></Link>
 
         </div>
         </section>
+        <Footer/>
         </>  
     )      
 }
