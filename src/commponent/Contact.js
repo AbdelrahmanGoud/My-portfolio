@@ -17,7 +17,7 @@ function Contact()
            email:email,
            masseage:masseage
           }  
-          emailjs.send('service_tzv61v2', 'template_c55m1ej', data, 'k1bCngTxomUWPvS6P')
+          emailjs.send('service_cuwhcn9', 'template_g9nin9q', data, 'k1bCngTxomUWPvS6P')
           .then((result) => {
               console.log(result.text);
           }, (error) => {
@@ -49,7 +49,7 @@ function Contact()
       <div className="row">
       <div className="col-md-6 mb-3">
       <div className="contact-item form-group">
-       <input type="text" name="user_name" value={name} onChange={(e)=>{setname(e.target.value)}} placeholder="Full Name" className="form-control m-auto mt-3"></input>
+       <input type="text" name="user_name"  value={name} onChange={(e)=>{setname(e.target.value)}} placeholder="Full Name" className="form-control m-auto mt-3"></input>
        </div>    
       </div>
       <div className="col-md-6 mb-3">
@@ -69,7 +69,7 @@ function Contact()
       </div>
       <div className="col-md-12 mb-3">
       <div className="contact-item form-group">
-          <button className="btn btn-success mt-3" type='submit'>Send Message</button>
+          <button className="btn btn-success mt-3" type='submit' value='send'>Send Message</button>
        </div>    
       </div>
       </div> 

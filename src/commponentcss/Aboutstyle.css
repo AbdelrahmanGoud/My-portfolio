@@ -1,77 +1,49 @@
-.about-section .container
+.about-sec
 {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-    padding-top: 100px;
+  background-image: url('../image/dots.png');
+  background-position: center center;
+  background-size: 100 100%;
+  height: 100%;    
+  font-family: 'Charm', cursive;
+  font-family: 'Crimson Text', serif;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Nanum Myeongjo', serif;
+  font-family: 'Newsreader', serif;
+  font-family: 'Source Serif Pro', serif;   
+}
+.about-cont
+{
+  padding-top: 90px;    
+}
+.title-about
+{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column !important;
+}
+.title-about-one
+{
+     position: relative;
+}
+.title-about-two
+{
+   position: absolute;    
+   top: 25%;
+   left: 25%;
+}
+.title-about-one h2
+{
+     font-size: 80px;
+     font-weight: 900;  
+     color: #f1f1f1;  
+}
+.title-about-two h3
+{
+     font-size: 40px;
+     font-weight: 900; 
 }
 .about-item
 {
-        
-     font-family: 'Charm', cursive;
-     font-family: 'Crimson Text', serif;
-     font-family: 'Dancing Script', cursive;
-     font-family: 'Nanum Myeongjo', serif;
-     font-family: 'Newsreader', serif;
-     font-family: 'Source Serif Pro', serif;
-     font-weight: bold;
-}
-@media screen and (max-width:991px) and (min-width:200px)
-{
-     .divition
-     {
-        margin-top: 70px !important; 
-     }     
-     .divition-tow
-     {
-          margin-top: 30px;
-     }
-}
-@media screen and (max-width:991px)
-{
-      
-     .divition-tow
-     {
-       padding-bottom: 200px;
-     }
-}
-@media screen and (max-width:380px)
-{
-     .divition
-     {
-         margin-top: 100px !important; 
-     }     
-     .divition-tow
-     {
-          margin-top: 30px;
-     }
-}
-
-.about-section
-{
-    background-image: url('../image/dots.png');
-    background-position: center center;
-    background-size: 100% 100;
-    height: 115vh;
-    width: 100%;
-}
-.about-item p
-{
-    line-height: 2rem;    
-}
-.divition-tow button
-{
-    font-weight: bold;
-
-}
-.down-but:hover
-{ 
-    background-color: rgb(255, 255, 255) !important;
-    color: black !important;
-}
-.contact-but:hover
-{
-     background-color: rgb(31, 30, 30) !important; 
-     color: white !important;    
+  font-weight: bold;   
 }
