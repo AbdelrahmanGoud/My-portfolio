@@ -17,7 +17,7 @@ function Contact()
            email:email,
            masseage:masseage
           }  
-          emailjs.send('service_cuwhcn9', 'template_g9nin9q', data, 'k1bCngTxomUWPvS6P')
+          emailjs.send('service_cuwhcn9', 'template_psxbfce', data, 'k1bCngTxomUWPvS6P')
           .then((result) => {
               console.log(result.text);
           }, (error) => {
