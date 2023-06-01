@@ -8,23 +8,35 @@ import crudtow from '../image/crudtow.jpg';
 import popup from '../image/popup.jpg';
 import anamit from '../image/anmit.jpg';
 import navBar from '../image/nav.jpg';
-import $ from 'jquery';
+import midical from '../image/midical.jpg';
 import { useEffect } from 'react';
 import Footer from './Footer';
 
 function Projects()
 {   
-    useEffect(()=>{
-      $(".anmitin-icon").click(function(){
-         $(".layar-black").removeClass("d-none")
-       })
-       $(".bot-yes").click(function(){
-         $(".layar-black").addClass("d-none")
-       })
-       $(".exit-icon").click(function(){
-         $(".layar-black").addClass("d-none")
-       })
-    },[])
+   useEffect(() => {
+      const anmitinIcon = document.querySelector(".anmitin-icon");
+      const layarBlack = document.querySelector(".layar-black");
+      const exitIcon = document.querySelector(".exit-icon");
+    
+      function showLayarBlack() {
+        layarBlack.classList.remove("d-none");
+      }
+    
+      function hideLayarBlack() {
+        layarBlack.classList.add("d-none");
+      }
+    
+      anmitinIcon.addEventListener("click", showLayarBlack);
+      document.querySelector(".bot-yes").addEventListener("click", hideLayarBlack);
+      exitIcon.addEventListener("click", hideLayarBlack);
+    
+      return () => {
+        anmitinIcon.removeEventListener("click", showLayarBlack);
+        document.querySelector(".bot-yes").removeEventListener("click", hideLayarBlack);
+        exitIcon.removeEventListener("click", hideLayarBlack);
+      };
+    }, []);
       
    return(
       <>
@@ -60,6 +72,17 @@ function Projects()
             <div className='icon-layar'>
              <span className='icon-one px-1'><a href='http://e-commerceapp.surge.sh'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
              <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/E-commerce'><i class="fa-solid fa-link"></i></a></span>
+            </div>
+            </div>  
+            </div>
+         </div>
+         <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={midical} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='http://medical-site-web.netlify.app'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/Medical'><i class="fa-solid fa-link"></i></a></span>
             </div>
             </div>  
             </div>
