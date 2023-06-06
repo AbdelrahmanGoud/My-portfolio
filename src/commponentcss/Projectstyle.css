@@ -150,3 +150,15 @@
   color: white !important;
   cursor: pointer;
 }
+.but-icon-anmat
+{
+  border: none !important;
+  outline: none !important;
+  background-color: transparent !important;
+}
+.x-icon
+{
+  background-color: transparent;
+  color: white !important;
+  border: none;
+}
