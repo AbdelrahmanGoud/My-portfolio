@@ -9,52 +9,38 @@ import popup from '../image/popup.jpg';
 import anamit from '../image/anmit.jpg';
 import navBar from '../image/nav.jpg';
 import midical from '../image/midical.jpg';
-import { useEffect } from 'react';
 import Footer from './Footer';
+import { useState } from 'react';
 
 function Projects()
-{   
-   useEffect(() => {
-      const anmitinIcon = document.querySelector(".anmitin-icon");
-      const layarBlack = document.querySelector(".layar-black");
-      const exitIcon = document.querySelector(".exit-icon");
-    
-      function showLayarBlack() {
-        layarBlack.classList.remove("d-none");
-      }
-    
-      function hideLayarBlack() {
-        layarBlack.classList.add("d-none");
-      }
-    
-      anmitinIcon.addEventListener("click", showLayarBlack);
-      document.querySelector(".bot-yes").addEventListener("click", hideLayarBlack);
-      exitIcon.addEventListener("click", hideLayarBlack);
-    
-      return () => {
-        anmitinIcon.removeEventListener("click", showLayarBlack);
-        document.querySelector(".bot-yes").removeEventListener("click", hideLayarBlack);
-        exitIcon.removeEventListener("click", hideLayarBlack);
-      };
-    }, []);
-      
+{     
+   const [showElement, setShowElement] = useState(false);
+
+  const handleShowClick = () => {
+    setShowElement(true);
+  };
+
+  const handleHideClick = () => {
+    setShowElement(false);
+  };
    return(
       <>
       <section className="proj-sec">
-      <div className='layar-black d-none'>
+      {showElement && <div className='layar-black'>
        <div className='black-box'>
          <h4 className='text-warning p-3'>Warning!</h4>
          <p className='px-3 pb-5'>Is this website unresponsive on small screens?<br></br> 
          Do you attempt to open this website on a screen smaller than 1200 pixels?</p>
           <div className='button-box'>
-          <button className='btn btn-primary px-3 mx-2 text-black bot-yes'>Yes</button>
+          <button onClick={handleHideClick} className='btn btn-primary px-3 mx-2 text-black bot-yes'>Yes</button>
           <a href='http://animationswebsit.netlify.app' className='camcel'><button className='btn btn-success px-3 mx-2 text-black'>No</button></a> 
           <div className='Div-exit-icon'>
-          <i class="fa-regular fa-circle-xmark exit-icon"></i>
+          <button onClick={handleHideClick} className='x-icon'><i class="fa-regular fa-circle-xmark exit-icon"></i></button>
          </div> 
           </div>
        </div>
-      </div>   
+      </div> }  
+        
       <div className="container cont-proj">
          <div className="cont-title">
             <div className="title-proj-one">
@@ -169,7 +155,7 @@ function Projects()
             <img src={anamit} alt="project" className="img-fluid i-img"></img> 
             <div className='layar'>
             <div className='icon-layar'>
-             <span className='icon-one px-1'><i class="fa-solid fa-magnifying-glass anmitin-icon"></i></span>  
+             <span className='icon-one px-1'><button onClick={handleShowClick} className='but-icon-anmat'><i class="fa-solid fa-magnifying-glass anmitin-icon"></i></button></span>  
              <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/Animationswebsit'><i class="fa-solid fa-link"></i></a></span>
             </div>
             </div>  
