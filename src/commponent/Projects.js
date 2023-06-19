@@ -9,6 +9,7 @@ import popup from '../image/popup.jpg';
 import anamit from '../image/anmit.jpg';
 import navBar from '../image/nav.jpg';
 import midical from '../image/midical.jpg';
+import eng from '../image/eng.jpg';
 import Footer from './Footer';
 import { useState } from 'react';
 
@@ -113,6 +114,17 @@ function Projects()
             <div className='icon-layar'>
              <span className='icon-one px-1'><a href='http://backerweb.netlify.app'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
              <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/BACKER'><i class="fa-solid fa-link"></i></a></span>
+            </div>
+            </div>  
+            </div>
+         </div>
+         <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={eng} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='http://engineeringwebsite.netlify.app'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/engineering'><i class="fa-solid fa-link"></i></a></span>
             </div>
             </div>  
             </div>
