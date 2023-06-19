@@ -12,11 +12,18 @@
   font-family: 'Newsreader', serif;
   font-family: 'Source Serif Pro', serif;  
 }
-.icon-foot .foot-i
+.icon-foot .foot-i 
 {
   color: rgb(255, 255, 255) !important;
   font-size: 30px !important;        
 }
+.icon-in-fot 
+{
+   color: white !important;
+   font-size: 30px !important;
+
+}
+
 .fa-github:hover
 {
    color: #dc3545 !important;       
@@ -32,4 +39,12 @@
 .fa-phone:hover
 {
    color: #dc3545 !important;       
+}
+.icon-in-fot:hover
+{
+   color: #dc3545 !important; 
+} 
+.icon-in:hover
+{
+   color: #dc3545 !important; 
 }
