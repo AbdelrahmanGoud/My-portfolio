@@ -13,6 +13,7 @@ function Footer()
         </div>
         <div className='icon-foot my-4'>
           <span className='icon-one px-2'><a href='https://github.com/AbdelrahmanGoud'><i class="fa-brands fa-github foot-i"></i></a></span>
+          <span className='icon-one px-2'><a href='https://www.linkedin.com/in/abdelrhman-ahmed-25635527b'><i class="fa-brands fa-linkedin"></i></a></span>
           <span className='icon-two px-2'><a href="mailto:abdoahmed132001@gmail.com"><i class="fa-regular fa-envelope foot-i"></i></a></span>
           <span className='icon-tree px-2'><a href='https://wa.me/+201148952582'><i class="fa-brands fa-whatsapp foot-i"></i></a></span>
           <span className='icone-four px-2'><a href='tel:01148952582'><i class="fa-solid fa-phone foot-i"></i></a></span>
