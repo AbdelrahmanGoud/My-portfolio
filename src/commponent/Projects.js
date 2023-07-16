@@ -57,7 +57,7 @@ function Projects()
             <img src={ecommerc} alt="project" className="img-fluid i-img"></img> 
             <div className='layar'>
             <div className='icon-layar'>
-             <span className='icon-one px-1'><a href='http://e-commerceapp.surge.sh'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+             <span className='icon-one px-1'><a href='https://web-commerce-set.netlify.app/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
              <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/E-commerce'><i class="fa-solid fa-link"></i></a></span>
             </div>
             </div>  
