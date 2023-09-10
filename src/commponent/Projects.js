@@ -11,6 +11,7 @@ import navBar from '../image/nav.jpg';
 import midical from '../image/midical.jpg';
 import eng from '../image/eng.jpg';
 import photograph from '../image/photography.jpg';
+import photo from '../image/phot.jpg';
 import Footer from './Footer';
 import { useState } from 'react';
 
@@ -86,6 +87,7 @@ function Projects()
             </div>  
             </div>
          </div>
+         
          <div className="col-lg-4 mb-5">
             <div className="proj-item">
             <img src={resto} alt="project" className="img-fluid i-img"></img> 
@@ -104,6 +106,17 @@ function Projects()
             <div className='icon-layar'>
              <span className='icon-one px-1'><a href='http://bezelprot.netlify.app'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
              <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/Bezel'><i class="fa-solid fa-link"></i></a></span>
+            </div>
+            </div>  
+            </div>
+         </div>
+         <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={photo} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='https://web-photo.netlify.app/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/Photography-web-seit'><i class="fa-solid fa-link"></i></a></span>
             </div>
             </div>  
             </div>
