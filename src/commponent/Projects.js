@@ -12,6 +12,7 @@ import midical from '../image/midical.jpg';
 import eng from '../image/eng.jpg';
 import photograph from '../image/photography.jpg';
 import photo from '../image/phot.jpg';
+import cafew from '../image/cafe.jpg'
 import Footer from './Footer';
 import { useState } from 'react';
 
@@ -72,6 +73,17 @@ function Projects()
             <div className='icon-layar'>
              <span className='icon-one px-1'><a href='http://medical-site-web.netlify.app'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
              <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/Medical'><i class="fa-solid fa-link"></i></a></span>
+            </div>
+            </div>  
+            </div>
+         </div>
+         <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={cafew} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='https://websit-cafe.netlify.app/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/Cafe'><i class="fa-solid fa-link"></i></a></span>
             </div>
             </div>  
             </div>
