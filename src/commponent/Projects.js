@@ -63,7 +63,7 @@ function Projects()
             <div className='layar'>
             <div className='icon-layar'>
              <span className='icon-one px-1'><a href='https://3ashop.netlify.app/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
-             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/A-Shop'><i class="fa-brands fa-github"></i></a></span>
+             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/A-Shop'><i class="fa-brands fa-github git-link"></i></a></span>
             </div>
             </div>  
             </div>
@@ -74,7 +74,7 @@ function Projects()
             <div className='layar'>
             <div className='icon-layar'>
              <span className='icon-one px-1'><a href='https://web-commerce-set.netlify.app/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
-             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/E-commerce'><i class="fa-brands fa-github"></i></a></span>
+             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/E-commerce'><i class="fa-brands fa-github git-link"></i></a></span>
             </div>
             </div>  
             </div>
@@ -107,7 +107,7 @@ function Projects()
             <div className='layar'>
             <div className='icon-layar'>
              <span className='icon-one px-1'><a href='http://medical-site-web.netlify.app'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
-             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/Medical'><i class="fa-brands fa-github"></i></a></span>
+             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/Medical'><i class="fa-brands fa-github git-link"></i></a></span>
             </div>
             </div>  
             </div>
@@ -118,7 +118,7 @@ function Projects()
             <div className='layar'>
             <div className='icon-layar'>
              <span className='icon-one px-1'><a href='https://websit-cafe.netlify.app/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
-             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/Cafe'><i class="fa-brands fa-github"></i></a></span>
+             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/Cafe'><i class="fa-brands fa-github git-link"></i></a></span>
             </div>
             </div>  
             </div>
@@ -129,7 +129,7 @@ function Projects()
             <div className='layar'>
             <div className='icon-layar'>
              <span className='icon-one px-1'><a href='https://photography-web-site.netlify.app/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
-             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/Photography'><i class="fa-brands fa-github"></i></a></span>
+             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/Photography'><i class="fa-brands fa-github git-link"></i></a></span>
             </div>
             </div>  
             </div>
@@ -141,7 +141,7 @@ function Projects()
             <div className='layar'>
             <div className='icon-layar'>
              <span className='icon-one px-1'><a href='http://restaurantewb.netlify.app'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
-             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/Restaurant'><i class="fa-brands fa-github"></i></a></span>
+             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/Restaurant'><i class="fa-brands fa-github git-link"></i></a></span>
             </div>
             </div>  
             </div>
@@ -152,7 +152,7 @@ function Projects()
             <div className='layar'>
             <div className='icon-layar'>
              <span className='icon-one px-1'><a href='http://bezelprot.netlify.app'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
-             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/Bezel'><i class="fa-brands fa-github"></i></a></span>
+             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/Bezel'><i class="fa-brands fa-github git-link"></i></a></span>
             </div>
             </div>  
             </div>
@@ -163,7 +163,7 @@ function Projects()
             <div className='layar'>
             <div className='icon-layar'>
              <span className='icon-one px-1'><a href='https://web-photo.netlify.app/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
-             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/Photography-web-seit'><i class="fa-brands fa-github"></i></a></span>
+             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/Photography-web-seit'><i class="fa-brands fa-github git-link"></i></a></span>
             </div>
             </div>  
             </div>
@@ -174,7 +174,7 @@ function Projects()
             <div className='layar'>
             <div className='icon-layar'>
              <span className='icon-one px-1'><a href='http://dnaielsport.netlify.app'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
-             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/DANEILS'><i class="fa-brands fa-github"></i></a></span>
+             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/DANEILS'><i class="fa-brands fa-github git-link"></i></a></span>
             </div>
             </div>  
             </div>
@@ -185,7 +185,7 @@ function Projects()
             <div className='layar'>
             <div className='icon-layar'>
              <span className='icon-one px-1'><a href='http://backerweb.netlify.app'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
-             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/BACKER'><i class="fa-brands fa-github"></i></a></span>
+             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/BACKER'><i class="fa-brands fa-github git-link"></i></a></span>
             </div>
             </div>  
             </div>
@@ -196,7 +196,7 @@ function Projects()
             <div className='layar'>
             <div className='icon-layar'>
              <span className='icon-one px-1'><a href='http://engineeringwebsite.netlify.app'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
-             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/engineering'><i class="fa-brands fa-github"></i></a></span>
+             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/engineering'><i class="fa-brands fa-github git-link"></i></a></span>
             </div>
             </div>  
             </div>
@@ -207,7 +207,7 @@ function Projects()
             <div className='layar'>
             <div className='icon-layar'>
              <span className='icon-one px-1'><a href='http://crudappone.netlify.app'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
-             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/Crud-App'><i class="fa-brands fa-github"></i></a></span>
+             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/Crud-App'><i class="fa-brands fa-github git-link"></i></a></span>
             </div>
             </div>  
             </div>
@@ -218,7 +218,7 @@ function Projects()
             <div className='layar'>
             <div className='icon-layar'>
              <span className='icon-one px-1'><a href='http://crudapptwo.netlify.app'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
-             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/Crud2'><i class="fa-brands fa-github"></i></a></span>
+             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/Crud2'><i class="fa-brands fa-github git-link"></i></a></span>
             </div>
             </div>  
             </div>
@@ -229,7 +229,7 @@ function Projects()
             <div className='layar'>
             <div className='icon-layar'>
              <span className='icon-one px-1'><a href='http://popupapp.netlify.app'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
-             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/Popup'><i class="fa-brands fa-github"></i></a></span>
+             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/Popup'><i class="fa-brands fa-github git-link"></i></a></span>
             </div>
             </div>  
             </div>
@@ -240,7 +240,7 @@ function Projects()
             <div className='layar'>
             <div className='icon-layar'>
              <span className='icon-one px-1'><button onClick={handleShowClick} className='but-icon-anmat'><i class="fa-solid fa-magnifying-glass anmitin-icon"></i></button></span>  
-             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/Animationswebsit'><i class="fa-brands fa-github"></i></a></span>
+             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/Animationswebsit'><i class="fa-brands fa-github git-link"></i></a></span>
             </div>
             </div>  
             </div> 

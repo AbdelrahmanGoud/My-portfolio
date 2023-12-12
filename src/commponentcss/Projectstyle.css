@@ -167,3 +167,7 @@
   color: white !important;
   border: none;
 }
+.git-link
+{
+  font-size: 2rem !important;
+}
