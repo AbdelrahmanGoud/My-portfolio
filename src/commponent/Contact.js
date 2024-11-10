@@ -17,7 +17,7 @@ function Contact()
            email:email,
            masseage:masseage
           }  
-          emailjs.send('service_cuwhcn9', 'template_psxbfce', data, 'k1bCngTxomUWPvS6P')
+          emailjs.send('service_93ydza6', 'template_4hwqcij', data, 'k1bCngTxomUWPvS6P')
           .then((result) => {
               console.log(result.text);
           }, (error) => {
@@ -49,17 +49,17 @@ function Contact()
       <div className="row">
       <div className="col-md-6 mb-3">
       <div className="contact-item form-group">
-       <input type="text" name="user_name"  value={name} onChange={(e)=>{setname(e.target.value)}} placeholder="Full Name" className="form-control m-auto mt-3"></input>
+       <input type="text" name="user_name"  value={name} onChange={(e)=>{setname(e.target.value)}} placeholder="Full Name" className="form-control m-auto mt-3" required></input>
        </div>    
       </div>
       <div className="col-md-6 mb-3">
       <div className="contact-item form-group">
-       <input type="number" name="user_phon_num" value={phone} onChange={(e)=>{setphone(e.target.value)}} placeholder="Phone Num" className="form-control m-auto mt-3"></input>
+       <input type="number" name="user_phon_num" value={phone} onChange={(e)=>{setphone(e.target.value)}} placeholder="Phone Num" className="form-control m-auto mt-3" required></input>
        </div>    
       </div>
       <div className="col-md-12 mb-3">
       <div className="contact-item form-group">
-       <input type="email" name="user_email" value={email} onChange={(e)=>{setemail(e.target.value)}} placeholder="Email" className="form-control m-auto  mt-3"></input>
+       <input type="email" name="user_email" value={email} onChange={(e)=>{setemail(e.target.value)}} placeholder="Email" className="form-control m-auto  mt-3" required></input>
        </div>    
       </div>
       <div className="col-md-12 mb-3">

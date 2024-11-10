@@ -15,6 +15,37 @@ import cafew from '../image/cafe.jpg'
 import yournews from '../image/yournews.jpg';
 import techno from '../image/techno.jpg';
 import shop from '../image/shop-2.jpg';
+import ym from '../image/ym2.jpg';
+import shi from '../image/shi.jpg';
+import vi from '../image/vi.jpg';
+import gu from '../image/gu.jpg';
+import ma from '../image/ma.jpg';
+import st from '../image/st.jpg';
+import wa from '../image/wa.jpg';
+import ya from '../image/ya.jpg';
+import popp from '../image/popp.jpg';
+import ne from '../image/ne.jpg';
+import cd from '../image/cd.jpg';
+import app from '../image/app.jpg';
+import dec from '../image/dec.jpg';
+import gr from '../image/gr.jpg';
+import ci from '../image/ci.jpg';
+import ss from '../image/5s.jpg';
+import va from '../image/va.jpg';
+import hm from '../image/hm.jpg';
+import ao from '../image/ao.jpg';
+import az from '../image/az.jpg';
+import oc from '../image/oc.jpg';
+import sg from '../image/sg.jpg';
+import ra from '../image/ra.jpg';
+import vip from '../image/vip.jpg';
+import pl from '../image/pl.jpg';
+import sk from '../image/sk.jpg';
+import ess from '../image/ess.jpg';
+import mh from '../image/mh.jpg';
+import bi from '../image/bi.jpg';
+import as from '../image/as.jpg';
+import bag from '../image/bag.jpg';
 import Footer from './Footer';
 import { useState } from 'react';
 
@@ -57,6 +88,325 @@ function Projects()
             </div>
          </div>
         <div className="row row-proj">
+        <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={ym} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='https://yemenibookstore.com/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/'><i class="fa-brands fa-wordpress-simple"></i></a></span>
+            </div>
+            </div>  
+            </div>
+         </div>
+         <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={shi} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='https://sahib-realestate.com/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/'><i class="fa-brands fa-wordpress-simple"></i></a></span>
+            </div>
+            </div>  
+            </div>
+         </div>
+         <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={vi} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='https://viziontools.com/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/'><i class="fa-brands fa-wordpress-simple"></i></a></span>
+            </div>
+            </div>  
+            </div>
+         </div>
+         <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={gu} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='https://theguruway.com/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/'><i class="fa-brands fa-wordpress-simple"></i></a></span>
+            </div>
+            </div>  
+            </div>
+         </div>
+           <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={bag} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='https://www.bahgatfarms.com/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+            </div>
+            </div>  
+            </div>
+         </div>
+         <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={ma} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='https://mamlakatsaba.com/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/'><i class="fa-brands fa-wordpress-simple"></i></a></span>
+            </div>
+            </div>  
+            </div>
+         </div>
+         <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={st} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='https://dev-staybook.pantheonsite.io/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/'><i class="fa-brands fa-wordpress-simple"></i></a></span>
+            </div>
+            </div>  
+            </div>
+         </div>
+         <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={wa} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='https://wadestorefixtureplus.com/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/'><i class="fa-brands fa-wordpress-simple"></i></a></span>
+            </div>
+            </div>  
+            </div>
+         </div>
+         <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={ya} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='https://yalladetroit.com/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/'><i class="fa-brands fa-shopify"></i></a></span>
+            </div>
+            </div>  
+            </div>
+         </div>
+         <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={popp} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='https://poppinusa.com/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/'><i class="fa-brands fa-wordpress-simple"></i></a></span>
+            </div>
+            </div>  
+            </div>
+         </div>
+         <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={as} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='https://amstardist.com/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+            </div>
+            </div>  
+            </div>
+         </div>
+           <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={ne} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='https://nevape.com/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+            </div>
+            </div>  
+            </div>
+         </div>
+          <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={cd} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='https://shopcdw.com/shop'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+            </div>
+            </div>  
+            </div>
+         </div>
+          <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={dec} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='https://decaturdist.com/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+            </div>
+            </div>  
+            </div>
+         </div>
+          <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={app} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='https://app.vizionerp.com/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+            </div>
+            </div>  
+            </div>
+         </div>
+         <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={gr} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='https://gr8wholesale.com/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+            </div>
+            </div>  
+            </div>
+         </div>
+         <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={ci} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='https://mydirectcigars.com/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+            </div>
+            </div>  
+            </div>
+         </div>
+         <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={ss} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='https://5starcigarsdepot.com/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+            </div>
+            </div>  
+            </div>
+         </div>
+         <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={va} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='https://vapeshock.com/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+            </div>
+            </div>  
+            </div>
+         </div>
+         <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={hm} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='https://hmdistroco.com/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+            </div>
+            </div>  
+            </div>
+         </div>
+         <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={ao} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='https://aonewholesaleinc.com/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+            </div>
+            </div>  
+            </div>
+         </div>
+         <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={az} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='https://atoz.vizionerp.com/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+            </div>
+            </div>  
+            </div>
+         </div>
+         <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={oc} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='https://oceanone.vizionerp.com/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+            </div>
+            </div>  
+            </div>
+         </div>
+         <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={sg} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='https://saveandgo.vizionerp.com/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+            </div>
+            </div>  
+            </div>
+         </div>
+         <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={ra} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='https://ravisinternational.vizionerp.com/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+            </div>
+            </div>  
+            </div>
+         </div>
+         <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={vip} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='https://vipdistronj.vizionerp.com/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+            </div>
+            </div>  
+            </div>
+         </div>
+         <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={pl} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='https://planbwholesale.com/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+            </div>
+            </div>  
+            </div>
+         </div>
+         <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={sk} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='https://skokie.vizionerp.com/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+            </div>
+            </div>  
+            </div>
+         </div>
+         <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={ess} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='https://essatrading.vizionerp.com/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+            </div>
+            </div>  
+            </div>
+         </div>
+         <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={mh} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='https://hamptonimpex.com/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+            </div>
+            </div>  
+            </div>
+         </div>
+         <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={bi} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='https://bigtimedist.com/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+            </div>
+            </div>  
+            </div>
+         </div>
         <div className="col-lg-4 mb-5">
             <div className="proj-item">
             <img src={shop} alt="project" className="img-fluid i-img"></img> 
