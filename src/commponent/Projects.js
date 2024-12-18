@@ -47,6 +47,10 @@ import bi from '../image/bi.jpg';
 import as from '../image/as.jpg';
 import bag from '../image/bag.jpg';
 import pri from '../image/pri.jpg';
+import drw from '../image/drw.jpg';
+import wed from '../image/wad.jpg';
+import pmp from '../image/pmp.jpg';
+import wo from '../image/1mo.jpg';
 import Footer from './Footer';
 import { useState } from 'react';
 
@@ -89,6 +93,46 @@ function Projects()
             </div>
          </div>
         <div className="row row-proj">
+         <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={drw} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='https://drweud.com/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+            </div>
+            </div>  
+            </div>
+         </div>
+         <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={wed} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='https://wadesignbanner.com/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+            </div>
+            </div>  
+            </div>
+         </div>
+         <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={pmp} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='https://pmphit.com/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+            </div>
+            </div>  
+            </div>
+         </div>
+         <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={wo} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='https://1matchoil.com/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+            </div>
+            </div>  
+            </div>
+         </div>
         <div className="col-lg-4 mb-5">
             <div className="proj-item">
             <img src={ym} alt="project" className="img-fluid i-img"></img> 
