@@ -19,7 +19,7 @@ import ym from '../image/ym2.jpg';
 import shi from '../image/shi.jpg';
 import vi from '../image/vi.jpg';
 import gu from '../image/gu.jpg';
-import ma from '../image/ma.jpg';
+import ma from '../image/ma-2.jpg';
 import st from '../image/st.jpg';
 import wa from '../image/wa.jpg';
 import ya from '../image/ya.jpg';
@@ -51,6 +51,9 @@ import drw from '../image/drw.jpg';
 import wed from '../image/wad.jpg';
 import pmp from '../image/pmp.jpg';
 import wo from '../image/1mo.jpg';
+import cust from '../image/cust.jpg';
+import jok from '../image/jok.jpg';
+import roy from '../image/roy.jpg';
 import Footer from './Footer';
 import { useState } from 'react';
 
@@ -109,6 +112,16 @@ function Projects()
             <div className='layar'>
             <div className='icon-layar'>
              <span className='icon-one px-1'><a href='https://wadesignbanner.com/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+            </div>
+            </div>  
+            </div>
+         </div>
+           <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={cust} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='https://customodoo.com/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
             </div>
             </div>  
             </div>
@@ -193,7 +206,6 @@ function Projects()
             <div className='layar'>
             <div className='icon-layar'>
              <span className='icon-one px-1'><a href='https://mamlakatsaba.com/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
-             <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/'><i class="fa-brands fa-wordpress-simple"></i></a></span>
             </div>
             </div>  
             </div>
@@ -514,6 +526,26 @@ function Projects()
             <div className='icon-layar'>
              <span className='icon-one px-1'><a href='https://websit-cafe.netlify.app/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
              <span className='icon-one px-1'><a href='https://github.com/AbdelrahmanGoud/Cafe'><i class="fa-brands fa-github git-link"></i></a></span>
+            </div>
+            </div>  
+            </div>
+         </div>
+         <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={roy} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='https://royalpremiumoil.com/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+            </div>
+            </div>  
+            </div>
+         </div>
+         <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={jok} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='https://jokerkingpremiumoil.com/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
             </div>
             </div>  
             </div>

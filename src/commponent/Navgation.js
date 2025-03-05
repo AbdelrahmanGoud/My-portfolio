@@ -1,6 +1,7 @@
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
+
 function Navgation()
 {   let logonav = `<GoudaDev/>`
 
@@ -14,7 +15,6 @@ function Navgation()
             <Link to='/' className='N-link'>Home</Link>
             <Link to='/About' className='N-link'>About</Link>
             <Link to='/Servicesec' className='N-link'>Services</Link>
-            <Link to='/Myskills' className='N-link'>Skills</Link>
             <Link to='/Projects' className='N-link'>Projects</Link>
             <Link to='/Contact' className='N-link'>Contact</Link>
             <div className='nav-icons S-case'>
@@ -28,6 +28,7 @@ function Navgation()
         </Navbar.Collapse>
       
     </Navbar>
+
        </>   
      )     
 }

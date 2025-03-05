@@ -10,7 +10,7 @@ function Homesec()
         <div className="desc">
 <p className=" hello">Hello</p>
 <h1>Im Abdelrahman Ahmed</h1>
-<h3>Front End Developer</h3>
+<h3>Front End & WordPress Developer</h3>
 <p className="py-2">Welcome to my personal website, I hope you like it and find it useful.</p>
 <Link to='/Projects'><button className="btn btn-danger mb-3">view projects</button></Link>
 <div className='nav-icons'>

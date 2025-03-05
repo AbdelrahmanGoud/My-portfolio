@@ -1,7 +1,7 @@
 .serv-sec
 {
    height: 100%;
-   background-image: url('../image/dark_dot.jpg');
+   background-image: url('../image/dots.png');
    background-position: center center;
    background-size: 100% 100;   
    padding-bottom: 100px;    
@@ -38,12 +38,13 @@
 }
 .serv-item
 {
-     
-     background-color: rgb(255, 255, 255);   
-     padding: 30px;  
+     background-image: url('../image/dark_dot.jpg');
+     background-position: center center;
+   background-size: 100% 100;
+      padding: 30px;  
      font-weight: bold;
      border-radius: 24px;
-     color: black;
+     color: #fff;
      position: relative;
 }
 
@@ -89,7 +90,7 @@
 {
   font-size: 80px;
   font-weight: 900; 
-  color: #343a40;       
+  color: #f1f1f1;       
 }
 .title-tow
 {
@@ -101,7 +102,7 @@
 {
    font-size: 40px;
    font-weight: 900;  
-   color: #ffffff;     
+   color: #343a40;     
 }
 
 .serv-item:hover .post 
