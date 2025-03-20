@@ -54,6 +54,8 @@ import wo from '../image/1mo.jpg';
 import cust from '../image/cust.jpg';
 import jok from '../image/jok.jpg';
 import roy from '../image/roy.jpg';
+import ofo from '../image/ofo.jpg';
+import delta from '../image/delta.jpg';
 import Footer from './Footer';
 import { useState } from 'react';
 
@@ -121,7 +123,17 @@ function Projects()
             <img src={cust} alt="project" className="img-fluid i-img"></img> 
             <div className='layar'>
             <div className='icon-layar'>
-             <span className='icon-one px-1'><a href='https://customodoo.com/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+             <span className='icon-one px-1'><a href='https://odoovizion.com/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+            </div>
+            </div>  
+            </div>
+         </div>
+         <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={delta} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='https://delta-way.com/Tech.net/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
             </div>
             </div>  
             </div>
@@ -142,6 +154,16 @@ function Projects()
             <div className='layar'>
             <div className='icon-layar'>
              <span className='icon-one px-1'><a href='https://1matchoil.com/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
+            </div>
+            </div>  
+            </div>
+         </div>
+         <div className="col-lg-4 mb-5">
+            <div className="proj-item">
+            <img src={ofo} alt="project" className="img-fluid i-img"></img> 
+            <div className='layar'>
+            <div className='icon-layar'>
+             <span className='icon-one px-1'><a href='https://ofoqagency.com/'><i class="fa-solid fa-magnifying-glass"></i></a></span>  
             </div>
             </div>  
             </div>
