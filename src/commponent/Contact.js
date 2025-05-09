@@ -36,6 +36,13 @@ function Contact() {
 
     return (
         <>
+            {/* Display response message */}
+            {responseMessage && (
+                        <div className="alert alert-info mt-3">
+                            {responseMessage}
+                        </div>
+                    )}
+                
             <section className="contact-sec">
                 <div className="container contact-conten">
                     <div className="title-contact">
@@ -77,12 +84,6 @@ function Contact() {
                         </div>
                     </form>
 
-                    {/* Display response message */}
-                    {responseMessage && (
-                        <div className="alert alert-info mt-3">
-                            {responseMessage}
-                        </div>
-                    )}
 
                 </div>
             </section>
